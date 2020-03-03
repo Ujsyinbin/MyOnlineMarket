@@ -3,8 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import LyTab from 'ly-tab'
 
 Vue.config.productionTip = false
+Vue.use(LyTab)
 
 /* eslint-disable no-new */
 new Vue({

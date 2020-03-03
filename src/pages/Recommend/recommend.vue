@@ -5,7 +5,14 @@
 </template>
 
 <script>
+  export default{
+    name:"recommend",
+    data(){
+      return{
+        }
+    }
+  }
 </script>
 
-<style>
+<style scoped lang="stylus" ref="stylesheet/stylus">
 </style>
