@@ -7,7 +7,7 @@ import Search from './../pages/Search/search.vue'
 import Chat from './../pages/Chat/chat.vue'
 import Me from './../pages/Me/me.vue'
 
-import Hot from './../pages/Home/Children/Hot'
+import Hot from './../pages/Home/Children/Hot/Hot'
 import Box from './../pages/Home/Children/Box'
 import Dress from './../pages/Home/Children/Dress'
 import Ele from './../pages/Home/Children/Ele'
