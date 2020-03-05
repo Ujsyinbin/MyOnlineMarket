@@ -14,6 +14,7 @@
           <div class="swiper-pagination"></div>
         </div>
         <hot-nav/>
+        <hot-shop-list/>
     </div>
 </template>
 
@@ -22,11 +23,13 @@
   import 'swiper/css/swiper.min.css'
 
   import HotNav from './HotNav'
+  import HotShopList  from './HotShopList'
 
     export default {
         name: "Hot",
         components:{
-          HotNav
+          HotNav,
+          HotShopList
         },
         mounted() {
           new Swiper('.swiper-container', {
